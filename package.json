@@ -1,0 +1,32 @@
+{
+  "name": "k-router",
+  "version": "1.0.0",
+  "description": "this modules allows to create multiple sites from just a single project, it's a better choice for subdomains or sites where you have common layouts and shared components.",
+  "main": "lib/main.js",
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/madhusudanbabar/k-router.git"
+  },
+  "keywords": [
+    "router",
+    "sub-domains",
+    "dry"
+  ],
+  "author": "krypton < madhusudanbabar@gmail.com >",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/madhusudanbabar/k-router/issues"
+  },
+  "homepage": "https://github.com/madhusudanbabar/k-router#readme",
+  "dependencies": {
+    "@nuxtjs/router": "^1.5.0",
+    "chokidar": "^3.4.2",
+    "consola": "^2.15.0"
+  }
+}
