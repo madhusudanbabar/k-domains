@@ -29,7 +29,6 @@
     "chokidar": "^3.4.2",
     "consola": "^2.15.0",
     "fs": "^0.0.1-security",
-    "package.json": "^2.0.1",
-    "yarn.lock": "^0.0.1-security"
+    "path": "^0.12.7"
   }
 }
