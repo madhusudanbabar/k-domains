@@ -50,7 +50,7 @@ yarn add k-domains # or npm i k-domains
 - Type: `Array`
 Add your subdomains here
 
-### `rootDomain```
+### `rootDomain`
 - Type: `String`
 directory name for the pages of root-domain 
 
