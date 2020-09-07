@@ -1,5 +1,5 @@
 {
-  "name": "k-router",
+  "name": "k-domains",
   "version": "1.0.0",
   "description": "this modules allows to create multiple sites from just a single project, it's a better choice for subdomains or sites where you have common layouts and shared components.",
   "main": "lib/main.js",
