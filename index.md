@@ -1,37 +1,75 @@
-## Welcome to GitHub Pages
+<h1 align="center">Welcome to k-domains 👋</h1>
+<p>
+  <a href="https://www.npmjs.com/package/k-domains" target="_blank">
+    <img alt="Version" src="https://img.shields.io/npm/v/k-domains.svg">
+  </a>
+  <a href="https://github.com/madhusudanbabar/k-router#readme" target="_blank">
+    <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
+  </a>
+  <a href="#" target="_blank">
+    <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
+  </a>
+  <a href="https://twitter.com/MadhusudanBabar" target="_blank">
+    <img alt="Twitter: MadhusudanBabar" src="https://img.shields.io/twitter/follow/MadhusudanBabar.svg?style=social" />
+  </a>
+</p>
 
-You can use the [editor on GitHub](https://github.com/madhusudanbabar/k-domains/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+> A simple nuxt module to manage multiple subdomains with just one project
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### 🏠 [Homepage](https://github.com/madhusudanbabar/k-router#readme)
 
-### Markdown
+### ✨ [Demo](madhusudan.live)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Install
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+npm i k-domains
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+## Setup
+1. Add ```k-domains``` to your project
+```sh
+yarn add k-domains # or npm i k-domains
+``` 
+2. ```k-domains``` to the buildModules section of nuxt.config.js
+```js
+    export default {
+  buildModules: [
+    [ "k-domains", {
+        subDomains: [ ], // Add subdomains here and create directories in projects folder
+        rootDomain: "root-domain" //  Create a directory to hold the pages for root domain and write it here  
+      }
+    ],
+  ]
+}
+```
+3. Create Directories in `pages` folder with the values given in subDomains option
+4. Add all your pages for the root-domain
+## Options
+### `subDomains`
+- Type: `Array`
+Add your subdomains here
 
-### Jekyll Themes
+### `rootDomain`
+- Type: `String`
+directory name for the pages of root-domain 
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/madhusudanbabar/k-domains/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+## Author
 
-### Support or Contact
+👤 **krypton < madhusudanbabar@gmail.com >**
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+* Website: https://madhusudan.live
+* Twitter: [@MadhusudanBabar](https://twitter.com/MadhusudanBabar)
+* Github: [@madhusudanbabar](https://github.com/madhusudanbabar)
+* LinkedIn: [@madhusudan-babar](https://linkedin.com/in/madhusudan-babar)
+
+## 🤝 Contributing
+
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/madhusudanbabar/k-router/issues). 
+
+## Show your support
+
+Give a ⭐️ if this project helped you!
+
+***
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
