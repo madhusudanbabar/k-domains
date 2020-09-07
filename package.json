@@ -1,6 +1,6 @@
 {
   "name": "k-domains",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "this modules allows to create multiple sites from just a single project, it's a better choice for subdomains or sites where you have common layouts and shared components.",
   "main": "lib/main.js",
   "files": [
@@ -16,7 +16,8 @@
   "keywords": [
     "router",
     "sub-domains",
-    "dry"
+    "dry",
+    "nuxt-module"
   ],
   "author": "krypton < madhusudanbabar@gmail.com >",
   "license": "MIT",

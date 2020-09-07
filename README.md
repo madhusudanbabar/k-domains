@@ -26,6 +26,34 @@
 npm i k-domains
 ```
 
+## Setup
+1. Add ```k-domains``` to your project
+```sh
+yarn add k-domains # or npm i k-domains
+``` 
+2. ```k-domains``` to the buildModules section of nuxt.config.js
+```js
+    export default {
+  buildModules: [
+    [ "k-domains", {
+        subDomains: [ ], // Add subdomains here and create directories in projects folder
+        rootDomain: "root-domain" //  Create a directory to hold the pages for root domain and write it here  
+      }
+    ],
+  ]
+}
+```
+3. Create Directories in `pages` folder with the values given in subDomains option
+4. Add all your pages for the root-domain
+## Options
+### `subDomains`
+- Type: `Array`
+Add your subdomains here
+
+### `rootDomain```
+- Type: `String`
+directory name for the pages of root-domain 
+
 ## Author
 
 👤 **krypton < madhusudanbabar@gmail.com >**
