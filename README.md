@@ -14,16 +14,16 @@
   </a>
 </p>
 
-> A simple nuxt module to manage multiple subdomains with just one project
+> A simple nuxt module to manage multiple subdomains with just a single nuxtJS project
 
 ### 🏠 [Homepage](https://github.com/madhusudanbabar/k-router#readme)
 
-### ✨ [Demo](madhusudan.live)
+### ✨ [Demo](https://madhusudan.live)
 
 ## Install
 
 ```sh
-npm i k-domains
+yarn add k-domains # or npm i k-domains
 ```
 
 ## Setup
@@ -31,20 +31,41 @@ npm i k-domains
 ```sh
 yarn add k-domains # or npm i k-domains
 ``` 
-2. ```k-domains``` to the buildModules section of nuxt.config.js
+
+2. Add `@nuxtjs/router` to your project
+```sh 
+yarn add @nuxtjs/router
+```
+
+3. Configure ```k-domains``` and ```@nuxtjs/router``` to the buildModules section of `nuxt.config.js`
 ```js
-    export default {
-  buildModules: [
-    [ "k-domains", {
-        subDomains: [ ], // Add subdomains here and create directories in projects folder
-        rootDomain: "root-domain" //  Create a directory to hold the pages for root domain and write it here  
+  export default {
+    buildModules: [
+      [ "k-domains", {
+          subDomains: [ ], // Add subdomains here and create directories in projects folder
+          rootDomain: "root-domain" //  directory to hold the pages for root domain  
       }
-    ],
-  ]
+      ],
+      ["@nuxtjs/router",{
+          keepDefaultRouter: true // this line is necessary
+      }
+      ]
+    ]
 }
 ```
-3. Create Directories in `pages` folder with the values given in subDomains option
-4. Add all your pages for the root-domain
+
+4. Create Directories in `pages` folder with the values given in subDomains option.
+5. Add your pages for the `root-domain`.
+6. At the end your pages directory should look like this:
+```
+|   
+|─pages
+|   ├───subdomain1
+|   ├───subdomain2
+|   ├───root-domain
+|   └───subdomain3
+```
+
 ## Options
 ### `subDomains`
 - Type: `Array`
