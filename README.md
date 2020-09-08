@@ -6,6 +6,9 @@
   <a href="https://github.com/madhusudanbabar/k-router#readme" target="_blank">
     <img alt="Documentation" src="https://img.shields.io/badge/documentation-yes-brightgreen.svg" />
   </a>
+  <a href="https://www.npmjs.com/package/k-domains" target="_blank">
+    <img alt="npm" src="https://img.shields.io/npm/dm/k-domains">
+  </a>
   <a href="#" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
