@@ -54,7 +54,7 @@ yarn add @nuxtjs/router
   export default {
     buildModules: [
       [ "k-domains", {
-          subDomains: [ ], // Add subdomains here and create directories in projects folder
+          subDomains: [ ], // List of directories to hold te pages for your subdomains
           rootDomain: "root-domain" //  directory to hold the pages for root domain  
       }
       ],
@@ -65,17 +65,34 @@ yarn add @nuxtjs/router
     ]
 }
 ```
-
-4. Create Directories in `pages` folder with the same name as given in the module options (subDomain and rootDomain).
-6. At the end your pages directory should look like this:
+4. Example 
+```js
+  export default {
+    buildModules: [
+      [ "k-domains", {
+          subDomains: ["blog", "projects", "anotherSubDomain" ], // List of directories to hold te pages for your subdomains
+          rootDomain: "main-domain" //  directory to hold the pages for root domain  
+      }
+      ],
+      ["@nuxtjs/router",{
+          keepDefaultRouter: true // this line is mandatory...
+      }
+      ]
+    ]
+}
+``` 
+and the tree for the pages should look like this:
 ```
 |   
 |─pages
-|   ├───subdomain1
-|   ├───subdomain2
-|   ├───root-domain
-|   └───subdomain3
+|   ├───blog
+|   ├───projects
+|   ├───main-domain
+|   └───anotherSubDomain
 ```
+
+5. That's it, now create pages in respective directories and it'll be mapped to that subdomains.
+
 
 ## Options
 ### `subDomains`
