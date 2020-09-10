@@ -49,7 +49,7 @@ yarn add k-domains # or npm i k-domains
 yarn add @nuxtjs/router
 ```
 
-3. Configure ```k-domains``` and ```@nuxtjs/router``` to the buildModules section of `nuxt.config.js`
+3. Configure ```k-domains``` and ```@nuxtjs/router``` to the buildModules section of `nuxt.config.js` as follows:
 ```js
   export default {
     buildModules: [
@@ -59,15 +59,14 @@ yarn add @nuxtjs/router
       }
       ],
       ["@nuxtjs/router",{
-          keepDefaultRouter: true // this line is necessary
+          keepDefaultRouter: true // this line is mandatory...
       }
       ]
     ]
 }
 ```
 
-4. Create Directories in `pages` folder with the values given in subDomains option.
-5. Add your pages for the `root-domain`.
+4. Create Directories in `pages` folder with the same name as given in the module options (subDomain and rootDomain).
 6. At the end your pages directory should look like this:
 ```
 |   
@@ -80,7 +79,7 @@ yarn add @nuxtjs/router
 
 ## Options
 ### `subDomains`
-- Type: `Array`
+- Type: `Array<String>`
 Add your subdomains here
 
 ### `rootDomain`
@@ -102,7 +101,7 @@ Contributions, issues and feature requests are welcome!<br />Feel free to check 
 
 ## Show your support
 
-Give a ⭐️ if this project helped you!
+Consider giving a ⭐️ if this project helped you!
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
