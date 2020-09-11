@@ -27,10 +27,10 @@
 
 ## What problem does this solves?? 
 &nbsp;&nbsp;&nbsp;&nbsp; Ever wondered how will you setup 3 sites of your own where you have same layouts & few shared components like feedback forms and so?? \
-The simple way to do is copy, paste the same in all those 3 projects ?? \
+The simple way to do is copy, paste the same in all those 3 projects... isn't it?? \
 But when you have to make changes, so you will require to copy the same thing in all the other projects... \
 This is not the right way... ❌❌❌ \
-*k-domains* let's you manage any number of subdomains with ease and that too you dont even need to create separate project for each subdomain (site), all your layouts, shared components and the code for these sites will live in one project only, all you have to is to just add `k-dmains` and configure it in your nuxt.config.js file as shown in the [#setup](#setup).
+*k-domains* let's you manage any number of subdomains with ease and that too without even need to create separate project for each subdomain (site). All your layouts, shared components and the code for these sites will live in one project only. All you have to is to just add `k-dmains` and configure it in your nuxt.config.js file as shown in the [#setup](#setup).
 
 ## Install
 
