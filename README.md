@@ -19,9 +19,10 @@
 
 <img alt="k-domains" src="./k-domains banner.png">
 
-### 🏠 [Homepage](https://github.com/madhusudanbabar/k-router#readme)
+### 🏠 [Homepage](https://github.com/madhusudanbabar/k-domains#readme)
 
-### ✨ [Demo](https://madhusudan.live)
+### ✨ Demo
+[portfolio](https://madhusudan.live) & [blog](https://blog.madhusudan.live)
 
 
 ## What is this ?? 🤔
@@ -111,13 +112,14 @@ directory name for the pages of root-domain
 👤 **krypton < madhusudanbabar@gmail.com >**
 
 * Website: https://madhusudan.live
+* Blog: https://blog.madhusudan.live
 * Twitter: [@MadhusudanBabar](https://twitter.com/MadhusudanBabar)
 * Github: [@madhusudanbabar](https://github.com/madhusudanbabar)
 * LinkedIn: [@madhusudan-babar](https://linkedin.com/in/madhusudan-babar)
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/madhusudanbabar/k-router/issues). 
+Contributions, issues and feature requests are welcome!<br />Feel free to check [issues page](https://github.com/madhusudanbabar/k-domains/issues). 
 
 ## Show your support
 
