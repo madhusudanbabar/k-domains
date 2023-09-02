@@ -112,7 +112,7 @@ directory name for the pages of root-domain
 👤 **krypton < madhusudanbabar@gmail.com >**
 
 * Website: https://madhusudan.live
-* Blog: https://blog.madhusudan.live
+* Blog: https://madhusudan.live/blog
 * Twitter: [@MadhusudanBabar](https://twitter.com/MadhusudanBabar)
 * Github: [@madhusudanbabar](https://github.com/madhusudanbabar)
 * LinkedIn: [@madhusudan-babar](https://linkedin.com/in/madhusudan-babar)
